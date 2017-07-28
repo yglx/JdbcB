@@ -14,7 +14,6 @@ public class JdbcUtilsImplByMysql implements JdbcUtils {
 	private static JdbcUtilsImplByMysql jdbcImpl;
 	private Connection conn;
 	private Statement stat;
-	private ResultSet res;
 	private Integer count;
 	private Set<String> tables;
 	static {
